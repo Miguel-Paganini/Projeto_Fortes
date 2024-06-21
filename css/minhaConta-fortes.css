@@ -72,26 +72,3 @@ nav a{
     transform: scale(1.05);
     color: #04BF7B;
 }
-
-/* Estilo Main*/
-#wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#projeto_box {
-    margin-top: 20px;
-    width: 1500px;
-    height: 750px;
-    background-color: #11538C;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-h1 {
-    color: #F2F2F2;
-    font-size: 36px;
-    margin-top: 10px;
-}
