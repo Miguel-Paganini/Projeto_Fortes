@@ -72,3 +72,65 @@ nav a{
     transform: scale(1.05);
     color: #04BF7B;
 }
+
+/* Estilo Main*/
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#projeto_box {
+    width: 1500px;
+    height: 800px;
+    background-color: #11538C;
+    border-radius: 20px;
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+h1 {
+    margin: 25px;
+    color: #11538C;
+    font-size: 36px;
+}
+
+h2 {
+    color: #F2F2F2;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #F2F2F2;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#imagem_perfil {
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#imagem_perfil img {
+    width: 100%;
+    height: auto;
+}
+
+#info_box {
+    width: 1300px;
+    height: 400px;
+    background-color: #11538C;
+    border: 2px solid #F2F2F2;
+}

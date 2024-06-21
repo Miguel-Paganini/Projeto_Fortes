@@ -18,12 +18,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.4)
+    background-color: rgba(0, 0, 0, 0.6)
 }
 
 #loginBox {
     width: 410px;
-    height: 350px;
+    height: 410px;
     background-color: #11538C;
     border-radius: 20px;
     border: 1px solid #11538C;
@@ -42,7 +42,7 @@ h1 {
 
 p {
     color: #F2F2F2;
-    margin-left: 20PX;
+    margin-left: 26PX;
 }
 
 .inputBox label {
@@ -55,7 +55,7 @@ p {
     height: 30px;
 }
 
-input#codigo {
+input#email {
     width: 200px;
 }
 

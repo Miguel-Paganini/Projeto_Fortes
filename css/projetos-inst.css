@@ -78,6 +78,7 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 #projeto_box {
@@ -88,9 +89,16 @@ nav a{
     border-radius: 20px;
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 h1 {
+    margin: 25px;
+    color: #11538C;
+    font-size: 36px;
+}
+
+h2 {
     color: #F2F2F2;
     font-size: 36px;
     margin-top: 10px;

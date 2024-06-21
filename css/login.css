@@ -18,7 +18,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.4)
+    background-color: rgba(0, 0, 0, 0.6)
 }
 
 #loginBox {
@@ -31,13 +31,13 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 
 h1 {
     color: #F2F2F2;
     font-size: 36px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .inputBox label {
@@ -51,12 +51,11 @@ h1 {
 }
 
 #esqueciSenha {
-    display: flex;
-    align-items: center;
-    justify-content: left;
+    margin-left: 170px;
 }
 
 .botoes {
+    margin-top: 15px;
     display: flex;
     align-items: center;
     gap: 20px;

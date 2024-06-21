@@ -10,12 +10,16 @@
     <div id="wrapper">
         <div id="loginBox">
             <h1>Recuperação de Senha</h1>
-            <p>Enviámos para o seu email cadastrado um 
-            código de verificação para a troca de senha.</p>
+            <p>Digite o seu email cadastrado no site, para te fornecermos
+                um código de recuperação de senha.</p>
             <div class="inputBox">
-                <label for="codigo">Codigo:</label><br>
+                <label for="email">Email:</label><br>
+                <input id="email" type="email">
+                <button>Enviar Código</button>
+            </div>
+            <div class="inputBox">
+                <label for="codigo">Informe o código:</label><br>
                 <input id="codigo" type="text">
-                <button>Reenviar</button>
             </div>
             <div class="inputBox">
                 <label for="senha">Informe sua nova senha:</label><br>
