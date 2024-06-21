@@ -1,0 +1,83 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url(https://institutobhfuturo.com.br/wp-content/uploads/2021/05/shutterstock_305457035-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+#loginBox {
+    width: 410px;
+    height: 350px;
+    background-color: #11538C;
+    border-radius: 20px;
+    border: 1px solid #11538C;
+    box-shadow: 3px 3px 10px  black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    color: #F2F2F2;
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.inputBox label {
+    color: #F2F2F2;
+    font-size: 18px;
+}
+
+.inputBox input {
+    width: 330px;
+    height: 30px;
+}
+
+#esqueciSenha {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    color: #000000;
+    background-color: #74F09E;
+    border: 1px solid #74F09E;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #04BF7B;
+    border-color: #04BF7B;
+}
+
+a {
+    color: #0089FF;
+}
