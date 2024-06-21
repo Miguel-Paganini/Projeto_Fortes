@@ -10,49 +10,48 @@
 </head>
 <body>
     <header>
-        <div class="flex">
-            <div id="cabecalho">
-                <nav id="opcoes">
-                    <ul>
-                        <li><a href="#seja-fornecedor">Seja um Fornecedor</a></li>
-                        <li><a href="#fale-conosco">Fale Conosco</a></li>
-                    </ul>
-                </nav>
-                <nav id="redes-header">
-                    <ul>
-                        <li><a href="#perfil"><i class="bi bi-person-circle"></i></a></li>
-                        <li><a target="_blank" href="https://br.linkedin.com/company/fortes-engenharia-ltda"><i class="bi bi-linkedin"></i></a></li>
-                        <li><a target="_blank" href="https://www.instagram.com/fortesengenharialtda/"><i class="bi bi-instagram"></i></a></li>
-                        <li><a href=""><i class="bi bi-translate"></i></a></li>
-                    </ul>
-                </nav>
+            <div class="flex">
+                <div id="cabecalho">
+                    <nav id="opcoes">
+                        <ul>
+                            <li><a href="#seja-fornecedor">Seja um Fornecedor</a></li>
+                            <li><a href="#fale-conosco">Fale Conosco</a></li>
+                        </ul>
+                    </nav>
+                    <nav id="redes-header">
+                        <ul>
+                            <li><a href="#perfil"><i class="bi bi-person-circle"></i></a></li>
+                            <li><a target="_blank" href="https://br.linkedin.com/company/fortes-engenharia-ltda"><i class="bi bi-linkedin"></i></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/fortesengenharialtda/"><i class="bi bi-instagram"></i></a></li>
+                            <li><a href=""><i class="bi bi-translate"></i></a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-        </div>
-        <div class="flex">
-            <div id="topo">
-                <img src="../imagens/logo-fortes.png" alt="logo_fortes" class="logo-topo">
-                <nav id="nav-topo">
-                    <ul>
-                        <li><a href="./projetos-fortes.html">Projetos</a></li>
-                        <li><a href="./minhaConta-fortes.html">Minha Conta</a></li>
-                    </ul>
-                </nav>
+            <div class="flex">
+                <div id="topo">
+                    <img src="../imagens/logo-fortes.png" alt="logo_fortes" class="logo-topo">
+                    <nav id="nav-topo">
+                        <ul>
+                            <li><a href="./projetos-fortes.html">Projetos</a></li>
+                            <li><a href="./minhaConta-fortes.html">Minha Conta</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-        </div>
     </header>
     <main>
-        <div id="wrapper">
-            <h1>Projetos Cadastrados</h1>
-            <div id="projetos">
-                <div id="busca">
-                    <label for="pesquisa">Buscar por Nome:</label>
-                    <input id="pesquisa" type="search" placeholder="Nome">
-                    <label for="categorias">Ordernar por Categoria:</label>
-                    <input id="categorias" type="text" placeholder="saúde">
-                </div>
-            <ul>
-                <li>
-                    <a href="">
+            <div id="wrapper">
+                <h1>Projetos Cadastrados</h1>
+                <div id="projetos">
+                    <div id="busca">
+                        <label for="pesquisa">Buscar por Nome:</label>
+                        <input id="pesquisa" type="search" placeholder="Nome">
+                        <label for="categorias">Ordernar por Categoria:</label>
+                        <input id="categorias" type="text" placeholder="saúde">
+                    </div>
+                <ul>
+                    <li onclick="abrirProjeto()">
                         <div class="project_box">
                             <h2>Projeto Exemplo 1</h2>
                             <div id="status">
@@ -60,54 +59,75 @@
                                 <div class="status_box_aprovado">Aprovado</div>
                             </div>
                         </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
+                    </li>
+                    <li onclick="abrirProjeto()">
                         <div class="project_box">
-                            <h2>Projeto Exemplo 2</h2>
+                             <h2>Projeto Exemplo 2</h2>
                             <div id="status">
                                 <h3>Status:</h3>
                                 <div class="status_box_pendente">Pendente</div>
                             </div>
                         </div>
                     </a>
-                </li>
-                <li>
-                    <a href="">
-                        <div class="project_box">
-                            <h2>Projeto Exemplo 3</h2>
-                            <div id="status">
-                                <h3>Status:</h3>
-                                <div class="status_box_reprovado">Reprovado</div>
+                    </li>
+                    <li onclick="abrirProjeto()">
+                            <div class="project_box">
+                                <h2>Projeto Exemplo 3</h2>
+                                <div id="status">
+                                    <h3>Status:</h3>
+                                    <div class="status_box_reprovado">Reprovado</div>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <div class="project_box">
-                            <h2>Projeto Exemplo 4</h2>
-                            <div id="status">
-                                <h3>Status:</h3>
-                                <div class="status_box_reprovado">Reprovado</div>
+                    </li>
+                    <li onclick="abrirProjeto()">
+                            <div class="project_box">
+                                <h2>Projeto Exemplo 4</h2>
+                                <div id="status">
+                                    <h3>Status:</h3>
+                                    <div class="status_box_reprovado">Reprovado</div>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <div class="project_box">
-                            <h2>Projeto Exemplo 5</h2>
-                            <div id="status">
-                                <h3>Status:</h3>
-                                <div class="status_box_pendente">Pendente</div>
+                    </li>
+                    <li onclick="abrirProjeto()">
+                            <div class="project_box">
+                                <h2>Projeto Exemplo 5</h2>
+                                <div id="status">
+                                    <h3>Status:</h3>
+                                    <div class="status_box_pendente">Pendente</div>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </li>
-            </ul>    
-        </div>
+                    </li>
+                </ul>    
+            </div>
     </main>
+    <div id="projeto_box">
+        <h2>Aquecendo Vidas</h2>
+        <button onclick="fecharProjeto()">Fechar</button>
+        <div id="info_projeto">
+            <h3>Informações do Projeto</h3>
+            <div id="info_box">
+                <div id="col_a">
+                    <label for="text1">Ações desenvolvidas pelo proponente:</label><br>
+                    <textarea name="acoes_proponente" id="text1"></textarea><br>
+                    <label for="text2">Regiões de alcançe das ações(Bairros):</label><br>
+                    <textarea name="regioes_proponente" id="text2"></textarea><br>
+                    <label for="text3">Público alvo de atendimento do proponente:</label><br>
+                    <textarea name="publico_alvo" id="text3"></textarea><br>
+                    <label for="text4">Infraestrutura do Proponente:</label><br>
+                    <textarea name="infra" id="text4"></textarea><br>
+                </div>
+                <div id="col_b">
+                    <h4>Imagens do Projeto</h4>
+                    <input id="imagem" type="file">
+                    <img src="../imagens/aquecendo_vidas_logo.jpg" alt="" style="width: 150px; height: 150px;"><br>
+                    <label for="text5">Objetivo:</label><br>
+                    <textarea name="obj" id="text5"></textarea><br>
+                    <label for="text6">Justificativa:</label><br>
+                    <textarea name="just" id="text6"></textarea><br>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <script src="../scripts/projetos-fortes.js"></script>
 </body>
 </html>

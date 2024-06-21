@@ -88,7 +88,9 @@ nav a{
     background-color: #11538C;
     border-radius: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
     margin-bottom: 30px;
 }
 
@@ -101,5 +103,57 @@ h1 {
 h2 {
     color: #F2F2F2;
     font-size: 36px;
-    margin-top: 10px;
+    margin: 10px 0 20px 0;
 }
+
+h3 {
+    color: #F2F2F2;
+    font-size: 26px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#info_box {
+    width: 1000px;
+    height: 550px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+}
+
+#info_box label {
+    color: #11538C;
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+#info_box textarea {
+    width: 500px;
+    height: 90px;
+    text-align: top;
+    resize: none;
+    padding-left: 5px;
+}
+
+h4 {
+    color: #11538C;
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+#col_b input#imagem {
+    margin-bottom: 20px;
+}
+
+#col_b textarea {
+    width: 400px;
+}
+
