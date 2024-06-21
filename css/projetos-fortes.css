@@ -94,8 +94,109 @@ h1 {
     background-color: #11538C;
     border-radius: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: top;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 30px;
     box-shadow: 0 0 5px #000000;
+    padding: 10px;
 }
 
+#busca {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#busca label {
+    color: #F2F2F2;
+    font-size: 23px;
+    margin-right: 5px;
+}
+
+#busca input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #F2F2F2;
+}
+
+#busca input#pesquisa {
+    margin-right: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.project_box {
+    width: 1000px;
+    height: 90px;
+    background-color: #404040;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0 20px;
+    margin: 30px;
+}
+
+.project_box:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 0 0 10px #000000;
+}
+
+h2 {
+    color: #F2F2F2;
+    font-size: 26px;
+}
+
+#status {
+    display: flex;
+    gap: 10px;
+}
+
+h3 {
+    color: #F2F2F2;
+    font-size: 24px;
+}
+
+.status_box_aprovado {
+    width: 200px;
+    height: 40px;
+    background-color: #04BF7B;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.status_box_pendente {
+    width: 200px;
+    height: 40px;
+    background-color: #646464;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.status_box_reprovado {
+    width: 200px;
+    height: 40px;
+    background-color: #f32929;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 20px;
+}
