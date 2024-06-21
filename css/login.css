@@ -43,6 +43,8 @@ h1 {
 .inputBox label {
     color: #F2F2F2;
     font-size: 18px;
+    display: inline-block;
+    margin-bottom: 5px;
 }
 
 .inputBox input {

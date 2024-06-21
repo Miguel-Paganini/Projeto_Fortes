@@ -74,6 +74,28 @@ nav a{
 }
 
 /* Estilo Main*/
-.background-img img{
-    width: 100%;
+#wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
+
+h1 {
+    margin: 25px;
+    color: #11538C;
+    font-size: 36px;
+}
+
+#projetos {
+    margin-top: 20px;
+    width: 1500px;
+    height: 750px;
+    background-color: #11538C;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    box-shadow: 0 0 5px #000000;
+}
+
