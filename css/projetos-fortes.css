@@ -17,12 +17,6 @@ nav a{
     text-decoration: none;
 }
 
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 /*Estilo Cabeçalho*/
 #cabecalho{
     height: 1.8rem;
@@ -51,7 +45,7 @@ main {
 /*Estilo Topo do Site*/
 
 #topo{
-    height: 12vh;
+    height: 20vh;
     background-color: #F2F2F2;
     padding: 0 3rem;
     justify-content: space-between;
@@ -95,7 +89,7 @@ h1 {
 
 #projetos {
     margin-top: 20px;
-    width: 1500px;
+    width: 98.5%;
     height: 750px;
     background-color: #11538C;
     border-radius: 20px;
@@ -119,7 +113,7 @@ h1 {
     margin-right: 5px;
 }
 
-#busca input {
+#busca input, #busca select{
     width: 300px;
     height: 30px;
     border-radius: 5px;
@@ -139,7 +133,7 @@ a {
 }
 
 .project_box {
-    width: 1000px;
+    width: 100%;
     height: 90px;
     background-color: #404040;
     border-radius: 10px;
@@ -205,96 +199,4 @@ h3 {
     justify-content: center;
     border-radius: 30px;
     font-size: 20px;
-}
-
-
-#projeto_box {
-    margin-top: 20px;
-    width: 1500px;
-    height: 750px;
-    background-color: #11538C;
-    border-radius: 20px;
-    display: flex;
-    justify-content: top;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 30px;
-    display: none;
-    position: fixed;
-    top: 80px;
-    right: 0px;
-    bottom: 0px;
-    left: 200px;
-    box-shadow: 0 0 1000px #000000;
-    padding-bottom: 30px;
-}
-
-#projeto_box  h2 {
-    color: #F2F2F2;
-    font-size: 36px;
-    margin: 10px 0 20px 0;
-}
-
-#projeto_box  h3 {
-    color: #F2F2F2;
-    font-size: 26px;
-}
-
-#container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#info_box {
-    width: 1000px;
-    height: 550px;
-    background-color: #F2F2F2;
-    border-radius: 20px;
-    padding: 20px;
-    display: flex;
-    gap: 50px;
-}
-
-#info_box label {
-    color: #11538C;
-    font-size: 18px;
-    display: inline-block;
-    margin-bottom: 5px;
-}
-
-#info_box textarea {
-    width: 500px;
-    height: 90px;
-    text-align: top;
-    resize: none;
-    padding-left: 5px;
-}
-
-#projeto_box  h4 {
-    color: #11538C;
-    font-size: 18px;
-    display: inline-block;
-    margin-bottom: 5px;
-}
-
-#projeto_box  #col_b input#imagem {
-    margin-bottom: 20px;
-}
-
-#projeto_box  #col_b textarea {
-    width: 400px;
-}
-
-#projeto_box button {
-    width: 100px;
-    height: 40px;
-    background-color: #74F09E;
-    border: 1px solid #74F09E;
-    border-radius: 20px;
-}
-
-#projeto_box button:hover {
-    background-color: #04BF7B;
-    border: 1px solid #04BF7B;
 }
